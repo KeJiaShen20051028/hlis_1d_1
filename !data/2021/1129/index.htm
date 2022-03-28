@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>11/29 8號作業:CSS選擇器</title>
+    <style>
+    	h1 {
+    		color: blue;
+    	}
+    	#maindiv {
+    		font-size: 75%;
+    	}
+        #maindiv01 {
+    		font-size: 102%;
+            color: #994499;
+    	}
+        #maindiv02 {
+    		font-size: 102%;
+            color: #199999;
+    	}
+    	.poem {
+			font-style: italic;
+			font-size: 120%;
+    	}
+        .poem01 {
+			font-style: italic;
+			font-size: 100%;
+            color: #559999;
+    	}
+        .poem02 {
+			font-style: italic;
+			font-size: 100%;
+            color: #759999;
+        }
+        td{
+			padding: 20px;
+			margin: 10px;
+			text-align: center;
+		}
+		h2[class="brand"]{
+			color: #FF3300;
+		}
+		img[alt~="Logo"]{
+			width: 80px; height: 80px;
+		}		
+		a[href^="http://"]{
+			color: #FF0000;
+			text-decoration: none;
+		}
+		img[src$=".png"]{
+			border: 1px solid #000;
+		}		
+		a[href*="e-happy"]{
+			background-color: yellow;
+		}
+    </style>
+</head>
+
+<body>
+    2021/11/29日 8號作業:CSS選擇器<br>
+    <hr>
+    <h1>靜夜思  李白</h1>
+		<p class="poem">
+		床前明月光，疑是地上霜。<br>
+		舉頭望明月，低頭思故鄉。
+		</p>
+		
+	    <p>
+		月光舖在床前的地上，<br>
+		像是一層瑩白的濃霜。<br> 
+		抬頭眺望窗外的明月，<br> 
+		低頭思念久別的故鄉。
+	    </p>
+
+    
+
+    <h1>詩名: 行 宮</h1>
+        <h2 class="brand">作者: 元 稹 　　 詩體: 五 言 絕 句</h2>
+        <h2 class="poem01">詩文: 　( 押 冬 韻 )</h2>
+        寥 落 古 行 宮 ，	　宮 花 寂 寞 紅 。<br>
+        白 頭 宮 女 在 ，	　閒 坐 說 玄 宗 。<br>
+    
+    <h1>詩名: 登 鸛 鵲 樓</h1>
+        <h2>作者: 王 之 渙 　　 詩體: 五 言 絕 句</h2>
+        <h2 class="poem01">詩文: 　( 押 尤 韻 )</h2>
+        白 日 依 山 盡 ，	　黃 河 入 海 流 。<br>
+        欲 窮 千 里 目 ，	　更 上 一 層 樓 。<br>
+
+    
+
+    <h1>詩名: 新 嫁 娘 詞</h1>
+        <h2 class="brand">作者: 王 建 　　 詩體: 五 言 絕 句</h2>
+        <h2 class="poem02">詩文: 　( 押 韻 )</h2>
+        三 日 入 廚 下 ，	　洗 手 作 羹 湯 。<br>
+        未 諳 姑 食 性 ，	　先 遣 小 姑 嘗 。<br>
+
+    <h1>詩名: 鹿 柴</h1>
+        <h2>作者: 王 維 　　 詩體: 五 言 絕 句</h2>
+        <h2 class="poem02">詩文: 　( 押 漾 韻 )</h2>
+        空 山 不 見 人 ，	　但 聞 人 語 響 。<br>
+        返 景 入 深 林 ，	　復 照 青 苔 上 。<br>
+
+</body>
+
+</html>
